@@ -18,5 +18,11 @@ npm install
 
 node tedious.js
 node mssql.js
-
+node knex.js
 ```
+
+## Notes
+
+* Tedious is just a Javascript driver for TDS, which is nice as it does not require you to install ODBC
+* MSSQL is a wrapper around Tedious, adding nicer query handling and promises
+* Knex is a query builder which uses MSSQL as the DB client to build complex queries and operations

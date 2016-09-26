@@ -6,6 +6,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "knex": "^0.12.1",
     "mssql": "^3.3.0",
     "tedious": "^1.14.0"
   }
