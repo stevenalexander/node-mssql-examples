@@ -6,8 +6,6 @@ Assumes you have an available MS SQL Server instance with the [AdventureWorksLT 
 
 ## Run
 
-### Tedious
-
 ```
 # Set environmental variables for DB connection
 export MSSQL_USERNAME='USERNAME'
@@ -15,7 +13,10 @@ export MSSQL_PASSWORD='PASSWORD'
 export MSSQL_SERVER='SERVER.database.windows.net'
 export MSSQL_DATABASE='AdventureWorks'
 
+# install dependencies
 npm install
 
 node tedious.js
+node mssql.js
+
 ```
