@@ -1,0 +1,11 @@
+{
+  "name": "node-mssql-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "tedious": "^1.14.0"
+  }
+}
