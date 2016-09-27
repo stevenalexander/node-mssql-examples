@@ -1,0 +1,7 @@
+{
+  "host": "SERVER",
+  "dialect": "mssql",
+  "dialectOptions": {
+    "encrypt": true
+  }
+}
